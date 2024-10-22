@@ -2,8 +2,9 @@ package dominio;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.io. Serializable;
 
-public class Municipio {
+public class Municipio implements Serializable{
     private String nombre;
     private List<Localidad> localidades;
 
